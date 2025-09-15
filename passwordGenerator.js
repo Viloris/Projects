@@ -31,3 +31,7 @@ function generatePasswordCharacterSet(params) {
     if (params.includeSymbols) pwdBase += symbols;
     return pwdBase;
 }
+
+function getRandomNumber(length) {
+    return Math.floor(Math.random() * length);
+}
